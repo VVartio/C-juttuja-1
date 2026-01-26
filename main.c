@@ -16,6 +16,7 @@ int main(void) {
     moving(bus, taxi, money);
     return 0;
 }
+
 int moving(int bus, int taxi, int money) {
     int choice = 0;
     do {
