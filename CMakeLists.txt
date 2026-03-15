@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 4.1)
-project(untitled C)
+project(exercises C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled "Week 1/ex_1.c")
+add_executable(ex1  "Week 1/ex_1.c")
+add_executable(ex2  "Week 1/ex_2.c")
+add_executable(ex3  "Week 2/ex_3.c")
+add_executable(ex4  "Week 2/ex_4.c")
+add_executable(ex5  "Week 2/ex_5.c")
+add_executable(ex6  "Week 2/ex_6.c")
+add_executable(ex7  "Week 3/ex_7.c")
