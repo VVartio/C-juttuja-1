@@ -18,9 +18,9 @@ int main(void) {
 
     unsigned int numbers[20];
     for (int i = 0; i < 19; i++) {
-        numbers[i] = (unsigned int)(rand() % 20 + 1); // range 1-20
+        numbers[i] = (unsigned int)(rand() % 20 + 1);
     }
-    numbers[19] = 0; // sentinel
+    numbers[19] = 0;
 
     printf("Array contents:\n");
     for (int i = 0; i < 20; i++) {
